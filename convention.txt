@@ -1,0 +1,24 @@
+s3: data-hackathon-smit-muhammad-haseeb
+
+sns: data-hackathon-smit-sns
+
+rulename: trigger-lambda-yahoo-every-minute
+
+lambda1: yf-lambda-mh
+lambda2: cmc-lambda-mh
+lambda3: openrate-lambda-mhs
+
+
+role1: yf-lambda-mh-role
+role2: cmc-lambda-mh-role
+role3: openrate-lambda-mh-role
+
+policy1: yf-lambda-mh-policy
+policy2: cmc-lambda-mh-policy
+policy3: openrate-lambda-mh-policy
+
+eventbridge: rule-currency-exchange-rate-mh
+
+sqs1: yahoo-finance-queue.fifo
+sqs2: coinmarketcap-queue.fifo
+sqs3: openexchangerates-queue.fifo
